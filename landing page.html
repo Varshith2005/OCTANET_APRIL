@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Welcome to Your Dream Destination</h1>
+            <p>Experience a world of wonder and possibilities.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Unleash Your Adventurous Spirit</h2>
+                <p>Explore breathtaking locations, embark on unforgettable journeys, and discover the beauty that surrounds you.</p>
+                <a href="https://www.google.com/search?q=travel+destinations" target="_blank">
+                    <img src="images/google-travel.png" alt="Google Travel Link">
+                </a>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <div class="container">
+                <h2>Why Choose Us?</h2>
+                <div class="benefits-list">
+                    <div class="benefit">
+                        <i class="fas fa-globe-americas"></i>
+                        <h3>Explore Diverse Locations</h3>
+                        <p>From mountain peaks to tropical beaches, we offer a variety of destinations to suit your interests.</p>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>Seamless Booking Process</h3>
+                        <p>Plan your trip with ease using our user-friendly platform and secure booking system.</p>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-star"></i>
+                        <h3>Unforgettable Experiences</h3>
+                        <p>Create lasting memories with curated activities and personalized travel plans.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="registration">
+            <div class="container">
+                <h2>Join the Adventure</h2>
+                <p>Sign up for exclusive deals and personalized recommendations.</p>
+                <form action="registration.php" method="post"> <table>
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" id="name" name="name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password:</label></td>
+                            <td><input type="password" id="password" name="password" required></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit">Register</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Stunning Landing Page</p>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</body>
+</html>
